@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa comparado · Grand Tour</title>
+<meta name="description" content="Trabajo Fin de Grado de Daniel Bilbao Marcos sobre los viajes iniciáticos de John Soane, Charles Garnier, Le Corbusier, Jørn Utzon y Tadao Ando.">
+<meta name="author" content="Daniel Bilbao Marcos">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+<header class="barra"><div class="barra-in">
+<a class="marca" href="index.html">Grand <span>Tour</span></a>
+<button class="hamb" type="button" aria-expanded="false">Menú</button>
+<nav class="menu" aria-label="Secciones"><ul><li><a href="index.html">Inicio</a></li><li><a href="introduccion.html">Introducción</a></li><li><a href="marco-teorico.html">Marco teórico</a></li><li><a href="clasificacion.html">Clasificación</a></li><li><a href="casos-de-estudio.html">Casos de estudio</a><ul><li><a href="casos-de-estudio.html">Elección y reconstrucción</a></li><li><a href="soane.html">John Soane · 1778–1780</a></li><li><a href="garnier.html">Charles Garnier · 1868</a></li><li><a href="le-corbusier.html">Le Corbusier · 1911</a></li><li><a href="utzon.html">Jørn Utzon · 1958</a></li><li><a href="ando.html">Tadao Ando · 1965</a></li></ul></li><li><a href="mapa.html" class="activo">Mapa comparado</a></li><li><a href="ejes.html">Ejes cronológicos</a></li><li><a href="conclusiones.html">Conclusiones</a></li><li><a href="fuentes.html">Fuentes</a><ul><li><a href="fuentes.html">Fuentes bibliográficas</a></li><li><a href="ilustraciones.html">Procedencia de las ilustraciones</a></li></ul></li></ul></nav>
+</div></header>
+<main>
+<header class="cap-cabecera"><div class="etq">SIG del TFG</div><h1>Mapa comparado</h1><p class=ent>Las cinco rutas superpuestas sobre una misma proyección. Activa o desactiva cada viaje, acerca con la rueda o los botones y pasa por los puntos para ver lugar y fechas.</p></header><section class="envoltura"><div id="mapa" class="mapa" style="aspect-ratio:16/8.5"></div><div class="leyenda"><label style="--c:#A76827"><input type="checkbox" checked data-c="soane"><i></i>John Soane · 1778–1780</label><label style="--c:#8E3B36"><input type="checkbox" checked data-c="garnier"><i></i>Charles Garnier · 1868</label><label style="--c:#2F5E86"><input type="checkbox" checked data-c="lecorbusier"><i></i>Le Corbusier · 1911</label><label style="--c:#4F7A55"><input type="checkbox" checked data-c="utzon"><i></i>Jørn Utzon · 1958</label><label style="--c:#3B3B3B"><input type="checkbox" checked data-c="ando"><i></i>Tadao Ando · 1965</label></div>
+<p style="font-size:13px;color:var(--gris);max-width:80ch;margin-top:18px">Superponer los itinerarios permite ver los tramos que se repiten entre casos —como el recorrido por Italia de Soane y Le Corbusier o la presencia constante de Roma y Atenas— y la progresiva ampliación geográfica del viaje desde el <em>Grand Tour</em> clásico hasta la vuelta al mundo de Ando.</p></section>
+<div class="siguiente"><a href="ando.html"><span>← Anterior</span>Tadao Ando. El viaje contemporáneo</a><a class="sig" href="conclusiones.html"><span>Siguiente →</span>Conclusiones</a></div>
+</main>
+<footer class="pie-sitio"><div class="envoltura">
+<div><strong>Grand Tour. El viaje como herramienta en la formación del arquitecto</strong><br>Trabajo Fin de Grado · Daniel Bilbao Marcos · Grado en Fundamentos de la Arquitectura · ETSA Universidad de Sevilla · 2026</div>
+<div>Mapas, ejes y diagramas: elaboración propia. Las imágenes de terceros se reproducen solo cuando son de dominio público o tienen licencia libre; el resto se enlaza a su fuente (<a href="ilustraciones.html">procedencia</a>).</div>
+</div></footer>
+<script src="assets/sitio.js"></script>
+<script src="assets/mapa.js"></script><script>GT.mapa(document.getElementById("mapa"),{}).then(m=>{document.querySelectorAll(".leyenda input").forEach(i=>i.addEventListener("change",()=>m.mostrar(i.dataset.c,i.checked)))})</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<h1 id="casos-de-estudio-discusión-e-impacto-en-la-arquitectura-posterior">Casos de estudio, discusión e impacto en la arquitectura posterior</h1>
+<h2 id="elección-de-casos-de-estudio">Elección de casos de estudio</h2>
+<p>El primer criterio es la <strong>representatividad tipológica</strong>. Cada viaje seleccionado presenta de manera predominante las características del tipo al que se adscribe, atendiendo a su contexto histórico, geografía, arquitectura objeto de interés, motivaciones y formas de registro. Esta adscripción no implica que los viajes respondan exclusivamente a una categoría, puesto que, como se ha señalado anteriormente, los distintos tipos pueden coexistir y compartir determinadas características.</p>
+<p>El segundo criterio es la <strong>relevancia formativa del viaje</strong>. Se han seleccionado experiencias que, por sus motivaciones, circunstancias biográficas o testimonios conservados, presentan indicios de haber tenido una especial importancia en la formación y evolución del arquitecto. Este criterio se relaciona con el concepto de viaje iniciático desarrollado en el marco teórico. No obstante, su posible carácter transformador no se considera demostrado de antemano, sino que constituye una cuestión que se examinará mediante el análisis de cada caso y de su relación con la producción arquitectónica posterior.</p>
+<p>El tercer criterio es la <strong>disponibilidad y calidad de las fuentes documentales</strong>. La reconstrucción de los viajes requiere información sobre los itinerarios, los lugares visitados y las experiencias registradas por sus protagonistas. Para ello se recurre tanto a fuentes primarias, como cuadernos, dibujos, correspondencia y fotografías, como a testimonios retrospectivos y estudios historiográficos. La naturaleza y precisión de estas fuentes condicionan el alcance del análisis y el grado de certeza de las reconstrucciones.</p>
+<p>Por último, se considera la <strong>relevancia historiográfica de los arquitectos seleccionados</strong>. Los cinco casos corresponden a figuras reconocidas de la historia de la arquitectura, cuyas trayectorias y obras han sido ampliamente estudiadas. Esta circunstancia facilita el acceso a documentación y bibliografía que permiten contextualizar los viajes y examinar sus posibles relaciones con la producción posterior. Al mismo tiempo, introduce un sesgo de selección hacia arquitectos consagrados, cuya documentación se ha conservado y estudiado con mayor frecuencia, como advierten Ceserani y su equipo<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
+<p>De acuerdo con estos criterios, se seleccionan los siguientes viajes:</p>
+<ul>
+<li><p>John Soane, viaje clásico (1778–1780)</p>
+<ul>
+<li><p>Se escoge por cumplir sobradamente los cuatro criterios y, en especial, por destacar entre sus coetáneos por su relevancia historiográfica posterior.</p></li>
+</ul></li>
+<li><p>Charles Garnier, viaje romántico (1868)</p>
+<ul>
+<li><p>El viaje de Garnier carece de una relevancia formativa constatada en su arquitectura posterior. Sin embargo, esta carencia se compensa con su representatividad tipológica y, sobre todo, con la calidad de sus fuentes documentales, las mejores de los cinco casos.</p></li>
+</ul></li>
+<li><p>Le Corbusier, viaje moderno (1911)</p>
+<ul>
+<li><p>Al igual que el de Soane, este viaje cumple con creces los cuatro criterios de selección.</p></li>
+</ul></li>
+<li><p>Jørn Utzon, viaje vernáculo (1958)</p>
+<ul>
+<li><p>Se escoge este viaje especialmente por su relevancia formativa; además, cuenta con bastantes fuentes documentales e investigación previa, aunque sin alcanzar el nivel de disponibilidad de los tres anteriores.</p></li>
+</ul></li>
+<li><p>Tadao Ando, viaje contemporáneo (1965)</p>
+<ul>
+<li><p>Si bien el viaje de Ando es el más débil en cuanto a disponibilidad documental, es muy representativo, cumple con creces los otros tres criterios y tiene además el interés añadido de ser uno de los pocos viajes investigables realizados por un arquitecto oriental hacia Occidente.</p></li>
+</ul></li>
+</ul>
+<p>La disponibilidad documental es desigual entre los cinco casos, lo que condiciona la precisión de las reconstrucciones y las posibilidades de análisis. Esta limitación resulta especialmente significativa en el caso de Ando, cuyo itinerario solo puede reconstruirse parcialmente a partir de las fuentes consultadas. Se mantiene su selección por su interés para explorar la caracterización ampliada del viaje contemporáneo propuesta en este trabajo, señalando expresamente las incertidumbres y diferenciando los datos documentados de las estimaciones.</p>
+<h2 id="reconstrucción-de-los-viajes">Reconstrucción de los viajes</h2>
+<h3 id="organización-de-la-información">Organización de la información</h3>
+<p>Para el análisis y la comparación de los casos de estudio se ha creado una base de datos que organiza la información con un doble objetivo, en línea con los objetivos específicos OE3 y OE4. Por una parte, funciona como repositorio ordenado de la información de cada viaje: una suerte de cuaderno de viaje contemporáneo, ya no físico sino digital y georreferenciado, consultable por otros investigadores. Por otra, es una herramienta de análisis: al disponer de la información ordenada en el espacio y en el tiempo, resulta más sencillo comparar los viajes y extraer conclusiones.</p>
+<p>Por ello se ha optado por un Sistema de Información Geográfica (SIG), que permite reconstruir los viajes de los arquitectos y asociar a cada lugar la información seleccionada. La selección responde a lo aprendido en el estado de la cuestión: del modelo de Ceserani se toma la reconstrucción espacio-temporal de los itinerarios; del de Chiu, la necesidad de vincular cada lugar con la arquitectura visitada y con los documentos que la registran; y de la clasificación de tipos, los rasgos que permiten comparar los viajes entre sí (geografía, duración y modo de registro). Conviene distinguir entre dos clases de información: los datos (lugares, fechas y secuencia), que se introducen como atributos de cada registro, y los documentos (dibujos, páginas de cuadernos, cartas y fotografías), que no se transcriben, sino que se vinculan a los lugares donde se produjeron.</p>
+<h3 id="información-recogida-y-criterios">Información recogida y criterios</h3>
+<p>La información se organiza en puntos georreferenciados, cada uno de los cuales representa una estancia en un lugar y en una fecha concreta o estimada. Cada punto incluye los siguientes atributos:</p>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Fid</th>
+<th>Campo nativo de QGIS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Lugar</td>
+<td>Nombre de la ciudad, zona o país</td>
+</tr>
+<tr class="even">
+<td>Fecha de entrada</td>
+<td>Fecha de entrada en el lugar</td>
+</tr>
+<tr class="odd">
+<td>Fecha de salida</td>
+<td>Fecha de salida del lugar</td>
+</tr>
+<tr class="even">
+<td>Secuencia</td>
+<td>Campo para ordenar la secuencia de lugares que se visitó, permitiendo ordenar la ruta</td>
+</tr>
+<tr class="odd">
+<td>Documento</td>
+<td>Vincula documentación gráfica o correspondencia de archivo al lugar donde se tomó</td>
+</tr>
+</tbody>
+</table>
+<p>Cada atributo responde a una pregunta concreta, derivada del estado de la cuestión y de la clasificación de tipos:</p>
+<p><strong>Lugar.</strong> Permite trazar la extensión geográfica del viaje, uno de los criterios que distinguen los tipos, y relacionar cada estancia con la arquitectura que allí se visitó.</p>
+<p><strong>Fechas de entrada y salida.</strong> Permiten calcular la duración de cada estancia y, con ella, la distribución del tiempo del viaje: qué porcentaje del total se dedicó a cada lugar o región. Esta información facilita la identificación de estancias prolongadas y la comparación de la organización temporal de los viajes. Sin embargo, la duración no se considera por sí sola una medida del interés arquitectónico ni de la intensidad del aprendizaje, puesto que puede responder a circunstancias de distinta naturaleza. Esta relación se analizará en cada caso.</p>
+<p><strong>Secuencia.</strong> Ordena las estancias y permite reconstruir la ruta, distinguir las estancias prolongadas de las excursiones y detectar los regresos a un mismo lugar.</p>
+<p><strong>Documentos.</strong> Vincula a cada lugar, de manera georreferenciada, la documentación gráfica o escrita producida en él cuando está disponible digitalizada en los archivos de los arquitectos, de modo que el SIG actúa también como índice del archivo del arquitecto: permite ver qué entradas de los cuadernos, dibujos o fotografías corresponden a cada localización y, con ello, analizar el modo de registro de cada viaje. Esto se aplica especialmente en los casos de Le Corbusier, Utzon y Soane por ser los que cuentan con instituciones que custodian y digitalizan sus archivos.</p>
+<p>La información disponible no presenta el mismo grado de precisión en todos los casos. Mientras que algunos viajes pueden reconstruirse con detalle a partir de documentación contemporánea, otros dependen parcialmente de testimonios retrospectivos o referencias indirectas. Cuando las fuentes no permiten establecer con certeza una localización, una fecha o una duración, se diferencia la información documentada de las estimaciones e hipótesis de reconstrucción. Estas limitaciones se señalan expresamente y se tienen en cuenta en la interpretación de los resultados.</p>
+<h3 id="representación-y-análisis-de-los-viajes">Representación y análisis de los viajes</h3>
+<p>La reconstrucción en el SIG precede a la descripción de cada caso de estudio y la fundamenta: las duraciones, los porcentajes y las secuencias que se citan en los apartados siguientes proceden de ella. A partir del SIG se elaboran, para cada viaje, dos representaciones gráficas. La primera es un mapa del itinerario, que muestra su extensión geográfica. La segunda es un eje cronológico-geográfico, en el que el tiempo se dispone en horizontal y cada lugar ocupa una fila: cada estancia se representa como una barra cuya longitud es su duración, de modo que pueden leerse de un vistazo la secuencia del recorrido, las estancias largas, las excursiones y los regresos. Este eje se acompaña de una ficha con los datos básicos del viaje (duración, edad del viajero y países visitados) y de un eje de la vida del arquitecto, que sitúa el viaje en el momento de su carrera. En conjunto, los SIG permiten además comparar la dispersión geográfica de los viajes a lo largo de su evolución histórica. La figura que cierra este apartado reúne en un mismo eje las vidas de los cinco arquitectos y la posición de cada viaje.</p>
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Ceserani et al., «British Travelers in Eighteenth-Century Italy», 435.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
