@@ -33,6 +33,11 @@ function GT_mapa(cont,opt){
     const capas={};
     for(const v of casos){
       const g=el('g',{'data-caso':v.id},gR);const gp=el('g',{'data-caso':v.id},gP);capas[v.id]=[g,gp];
+      for(const x of (v.extras||[])){ // ríos y ferrocarriles de referencia (SIG del TFG)
+        const pd=pathFrom(x.lineas);
+        if(x.tipo==='rio')el('path',{d:pd,class:'rio'},g);
+        else{el('path',{d:pd,class:'tren',stroke:v.color},g);el('path',{d:pd,class:'tren-int'},g)}
+      }
       for(const ln of v.ruta){const pd=pathFrom([ln]);el('path',{d:pd,class:'ruta',stroke:v.color},g)}
       for(const p of v.puntos){const [x,y]=rob(p.c[0],p.c[1]);x0=Math.min(x0,x);y0=Math.min(y0,y);x1=Math.max(x1,x);y1=Math.max(y1,y)}
     }
@@ -51,6 +56,11 @@ function GT_mapa(cont,opt){
       const vistos={};
       for(const v of casos){
         const gp=el('g',{'data-caso':v.id},gP);capas[v.id][1]=gp;if(capas[v.id].oculto)gp.style.display='none';
+        if(!opt.mini)for(const x of (v.extras||[])){
+          let L=x.lineas.reduce((a,b)=>b.length>a.length?b:a,[]);if(!L.length)continue;
+          const q=L[Math.floor(L.length*(x.tipo==='rio'?.42:.5))],[ex,ey]=rob(q[0],q[1]);
+          const t=el('text',{x:ex,y:ey-6*s,'font-size':11*s,'stroke-width':3*s,class:'etq-'+x.tipo,'text-anchor':'middle'},gp);t.textContent=x.nombre;
+        }
         v.puntos.forEach((p,i)=>{
           const [x,y]=rob(p.c[0],p.c[1]);
           const g=el('g',{class:'pt',transform:`translate(${x},${y})`},gp);
