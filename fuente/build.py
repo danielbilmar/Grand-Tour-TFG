@@ -88,7 +88,7 @@ def pagina(nombre, titulo, cuerpo, scripts='', desc=''):
 {pie_nav}
 </main>
 <footer class="pie-sitio"><div class="envoltura">
-<div><strong>{esc(TITULO)}</strong><br>Trabajo Fin de Grado · {AUTOR} · Grado en Fundamentos de la Arquitectura · ETSA Universidad de Sevilla · 2026</div>
+<div><strong>{esc(TITULO)}</strong><br>Trabajo Fin de Grado · {AUTOR} · Grado en Fundamentos de la Arquitectura · ETSA Universidad de Sevilla · 2026 · Grupo G (TFG-G)</div>
 <div>Mapas, ejes y diagramas: elaboración propia. Las imágenes de terceros se reproducen solo cuando son de dominio público o tienen licencia libre; el resto se enlaza a su fuente (<a href="ilustraciones.html">procedencia</a>).</div>
 </div></footer>
 <script src="assets/sitio.js"></script>
@@ -152,7 +152,7 @@ def inicio():
 <section class="portada">
 <div>
 <h1>Grand Tour<small>El viaje como herramienta en la formación del arquitecto</small></h1>
-<div class="meta"><strong>{AUTOR}</strong><br>Trabajo Fin de Grado · Grado en Fundamentos de la Arquitectura<br>Escuela Técnica Superior de Arquitectura · Universidad de Sevilla · 2026</div>
+<div class="meta"><strong>{AUTOR}</strong><br>Trabajo Fin de Grado · Grado en Fundamentos de la Arquitectura<br>Escuela Técnica Superior de Arquitectura · Universidad de Sevilla · 2026<br>Trabajo tutorizado dentro del grupo G (TFG-G)</div>
 </div>
 <div>
 <blockquote class="epigrafe">«El que lee mucho y anda mucho, ve mucho y sabe mucho».<cite>Miguel de Cervantes Saavedra, <em>Don Quijote de la Mancha</em>, parte II, cap. XXV.</cite></blockquote>
