@@ -12,7 +12,8 @@ function GT_eje(cont,idx,color){
   return GT.json(GT.base+'data/ejes.json').then(ejes=>{
     const e=ejes[idx];if(!e){cont.textContent='Eje no disponible';return}
     const bl=e.bloques.map(b=>({...b,s:parse(b.a),e:parse(b.b)})).filter(b=>b.s!=null&&b.e!=null);
-    const filas=[];for(const b of bl){if(!filas.includes(b.n))filas.push(b.n)}
+    // Orden de filas: el del eje original (por latitud, norte arriba); los nombres no incluidos van al final
+    const filas=(e.filas||[]).slice();for(const b of bl){if(!filas.includes(b.n))filas.push(b.n)}
     let t0=Math.min(...bl.map(b=>b.s)),t1=Math.max(...bl.map(b=>b.e))+DIA;
     const span=(t1-t0)/DIA, largo=span>3650;
     const lab=150, alto=filas.length>14?17:22, top=26;

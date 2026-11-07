@@ -235,7 +235,7 @@ def caso(c, n):
 <section class="eje-bloque">
 <p class="bloque-tit">Eje cronológico del viaje</p>
 <div class="eje" id="eje"></div>
-<div class="eje-pie"><span>Pasa el ratón por un bloque para ver lugar, fechas y duración. Las travesías aparecen en gris.</span><a href="ejes.html?v={v['eje']}">Abrir el eje interactivo completo →</a></div>
+<div class="eje-pie"><span>Pasa el ratón por un bloque para ver lugar, fechas y duración. Filas ordenadas por latitud (norte arriba), como en el eje original. Las travesías aparecen en gris.</span><a href="ejes.html?v={v['eje']}">Abrir el eje interactivo completo →</a></div>
 </section>
 <div class="texto">{s}</div>'''
     js=(f'<script src="assets/mapa.js"></script><script src="assets/eje.js"></script>'
