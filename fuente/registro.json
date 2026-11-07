@@ -72,10 +72,10 @@
   "ref": "Fig. 0.3. Giovanni Battista Piranesi, Veduta della Piazza del Popolo, de la serie Vedute di Roma, c. 1750, aguafuerte, 38 × 54 cm (imagen). The Metropolitan Museum of Art, Nueva York, Harris Brisbane Dick Fund, 1937, 37.45.3(49). https://www.metmuseum.org/art/collection/search/362729.",
   "url": "https://www.metmuseum.org/art/collection/search/362729",
   "lic": "Dominio público",
-  "img": null,
-  "w": null,
-  "h": null,
-  "pub": false
+  "img": "img/F00-03.jpg",
+  "w": 1200,
+  "h": 891,
+  "pub": true
  },
  {
   "id": "F02-03",
@@ -112,8 +112,8 @@
   "url": null,
   "lic": "Propia",
   "img": "img/F01-05.jpg",
-  "w": 1200,
-  "h": 891,
+  "w": 1020,
+  "h": 660,
   "pub": true
  },
  {
