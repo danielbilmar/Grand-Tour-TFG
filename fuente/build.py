@@ -192,7 +192,7 @@ def inicio():
         sellos+=f'<a class="sello" href="{c["url"]}" style="left:{x};top:{y};--c:{v["color"]};--d:{d};animation-delay:{1.3+k*.12:.2f}s"><span>{viaje_tipo(v)}</span><b>{esc(c["nombre"])}</b>{esc(c["destino"])} · {c["anos"]}</a>'
     cuerpo=f'''
 <section class="intro" id="intro" aria-label="{t("Portada","Cover")}">
-<div class="intro-img" style="background-image:url({P}img/portada.jpg)" role="img" aria-label="{t("Oficina de John Soane, orden corintio del Templo de Cástor y Pólux (imagen de la portada del TFG)","John Soane’s office, Corinthian order of the Temple of Castor and Pollux (cover image of the thesis)")}"></div>
+<div class="intro-img" style="background-image:url({P}img/portada.jpg)" role="img" aria-label="{t("Giovanni Paolo Panini, Interior del Panteón, Roma, c. 1734 (National Gallery of Art, Washington, dominio público)","Giovanni Paolo Panini, Interior of the Pantheon, Rome, c. 1734 (National Gallery of Art, Washington, public domain)")}"></div>
 <div class="intro-velo"></div><div class="intro-luz"></div>
 <div class="intro-txt">
 <p class="etq">{t("Trabajo Fin de Grado · ETSA Sevilla · 2026","Undergraduate thesis · ETSA Seville · 2026")}</p>
@@ -201,6 +201,7 @@ def inicio():
 <p class="autor"><strong>{AUTOR}</strong><br>{t("Tutora","Supervisor")}: {TUTORA}</p>
 </div>
 <div class="intro-sellos">{sellos}</div>
+<p class="intro-credito">Giovanni Paolo Panini, <em>{t("Interior del Panteón, Roma","Interior of the Pantheon, Rome")}</em>, c. 1734. National Gallery of Art, Washington ({t("dominio público","public domain")}).</p>
 <a class="intro-entrar" href="#inicio">{t("Entrar","Enter")}<i></i></a>
 </section>
 <section class="portada" id="inicio">
