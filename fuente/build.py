@@ -184,8 +184,26 @@ def js_minis(): return f'<script src="{P}assets/mapa.js"></script><script>docume
 def inicio():
     N=nombres()
     indice=''.join(f'<li><a href="{(P if u=="ejes.html" else "")+u}">{esc(N[u])}</a></li>' for u in orden()[1:5]+['mapa.html','ejes.html','conclusiones.html','fuentes.html','ilustraciones.html'])
+    letras=''.join(f'<span class="l" style="animation-delay:{.25+i*.06:.2f}s">{ch if ch!=" " else "&nbsp;"}</span>' for i,ch in enumerate('Grand Tour'))
+    pos=[('soane','60%','14%',1.4),('garnier','83%','24%',.8),('lecorbusier','66%','47%',1.8),('utzon','86%','62%',1.1),('ando','58%','76%',.6)]
+    sellos=''
+    for k,(cid,x,y,d) in enumerate(pos):
+        c=[c for c in casos() if c['id']==cid][0]; v=VIAJES[cid]
+        sellos+=f'<a class="sello" href="{c["url"]}" style="left:{x};top:{y};--c:{v["color"]};--d:{d};animation-delay:{1.3+k*.12:.2f}s"><span>{viaje_tipo(v)}</span><b>{esc(c["nombre"])}</b>{esc(c["destino"])} · {c["anos"]}</a>'
     cuerpo=f'''
-<section class="portada">
+<section class="intro" id="intro" aria-label="{t("Portada","Cover")}">
+<div class="intro-img" style="background-image:url({P}img/portada.jpg)" role="img" aria-label="{t("Oficina de John Soane, orden corintio del Templo de Cástor y Pólux (imagen de la portada del TFG)","John Soane’s office, Corinthian order of the Temple of Castor and Pollux (cover image of the thesis)")}"></div>
+<div class="intro-velo"></div><div class="intro-luz"></div>
+<div class="intro-txt">
+<p class="etq">{t("Trabajo Fin de Grado · ETSA Sevilla · 2026","Undergraduate thesis · ETSA Seville · 2026")}</p>
+<h1 aria-label="Grand Tour">{letras}</h1>
+<p class="sub">{t("El viaje como herramienta en la formación del arquitecto","Travel as a tool in the education of the architect")}</p>
+<p class="autor"><strong>{AUTOR}</strong><br>{t("Tutora","Supervisor")}: {TUTORA}</p>
+</div>
+<div class="intro-sellos">{sellos}</div>
+<a class="intro-entrar" href="#inicio">{t("Entrar","Enter")}<i></i></a>
+</section>
+<section class="portada" id="inicio">
 <div>
 <h1>Grand Tour<small>{t("El viaje como herramienta en la formación del arquitecto","Travel as a tool in the education of the architect")}</small></h1>
 <div class="meta"><strong>{AUTOR}</strong><br>{t("Tutora","Supervisor")}: <strong>{TUTORA}</strong><br>{t("Trabajo Fin de Grado · Grado en Fundamentos de la Arquitectura","Undergraduate thesis (Trabajo Fin de Grado) · Degree in Fundamentals of Architecture")}<br>{t("Escuela Técnica Superior de Arquitectura · Universidad de Sevilla · 2026","School of Architecture (ETSA) · University of Seville · 2026")}<br>{t("Trabajo tutorizado dentro del grupo G (TFG-G)","Supervised within Group G (TFG-G)")}</div>
@@ -207,7 +225,7 @@ def inicio():
 <p class="sec-sub">{t("El texto íntegro del TFG, con los mapas y ejes cronológicos en versión interactiva.","The full text of the thesis, with interactive maps and chronological axes.")}</p>
 <ol class="indice">{indice}</ol>
 </section>'''
-    escribir('index.html',pagina('index.html',titulo_tfg(),cuerpo,js_minis()))
+    escribir('index.html',pagina('index.html',titulo_tfg(),cuerpo,js_minis()+f'<script src="{P}assets/intro.js"></script>'))
 
 # ---------- INTRODUCCIÓN
 def introduccion():
