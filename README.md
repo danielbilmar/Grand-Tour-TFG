@@ -19,6 +19,10 @@ Publicada con GitHub Pages: https://danielbilmar.github.io/Grand-Tour-TFG/
 | `conclusiones.html` | Conclusiones, limitaciones y futuras líneas |
 | `fuentes.html`, `ilustraciones.html` | Bibliografía y procedencia de las ilustraciones |
 
+## Versión en inglés
+
+Todas las páginas tienen versión en inglés en la carpeta `en/` (botón EN/ES en el menú). Los textos ingleses están en `fuente/en/` y los pies de figura en los campos `pie_en` y `ref_en` de `fuente/registro.json`. El eje interactivo (`ejes.html`) solo existe en español.
+
 ## Cómo está hecho
 
 Web estática sin dependencias (HTML, CSS y JavaScript). Las páginas se generan con un script de Python a partir de los textos de `fuente/`:
@@ -35,7 +39,7 @@ python3 fuente/build.py
 - `data/mundo.json` — cartografía base (Natural Earth, simplificada).
 - `assets/` — estilos, mapas (proyección Robinson) y ejes.
 
-Para cambiar un texto, edita el archivo de `fuente/` y vuelve a ejecutar `build.py`.
+Para cambiar un texto, edita el archivo de `fuente/` (o `fuente/en/` para el inglés) y vuelve a ejecutar `build.py`, que genera las dos versiones.
 
 ## Imágenes
 

@@ -10,7 +10,9 @@
   "img": "img/F01-02.jpg",
   "w": 1437,
   "h": 1407,
-  "pub": true
+  "pub": true,
+  "pie_en": "Samuel John Neele, world map of the northern hemisphere, in The New Art of Memory, 1812.",
+  "ref_en": "Fig. 1.1. Samuel John Neele, world map of the northern hemisphere, in The New Art of Memory, 1812. Wellcome Collection, London, EPB/B/22344. Reproduced in Gregor von Feinaigle, The New Art of Memory, Founded upon the Principles Taught by M. Gregor von Feinaigle, ed. John Millard (Londres: Sherwood, Neely, and Jones, 1812), lám. IV. https://wellcomecollection.org/works/a2annz9y."
  },
  {
   "id": "F01-03",
@@ -23,7 +25,9 @@
   "img": "img/F01-03.jpg",
   "w": 1444,
   "h": 1396,
-  "pub": true
+  "pub": true,
+  "pie_en": "Samuel John Neele, world map of the southern hemisphere, in The New Art of Memory, 1812.",
+  "ref_en": "Fig. 1.2. Samuel John Neele, world map of the southern hemisphere, in The New Art of Memory, 1812. Wellcome Collection, London, EPB/B/22344. Reproduced in Gregor von Feinaigle, The New Art of Memory, Founded upon the Principles Taught by M. Gregor von Feinaigle, ed. John Millard (Londres: Sherwood, Neely, and Jones, 1812), lám. V. https://wellcomecollection.org/works/a2annz9y."
  },
  {
   "id": "F02-23",
@@ -36,7 +40,9 @@
   "img": "img/F02-23.jpg",
   "w": 718,
   "h": 1080,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane’s office, drawing for the Royal Academy lectures: Corinthian order of the Temple of Castor and Pollux.",
+  "ref_en": "Fig. 1.3. John Soane’s office, drawing for the Royal Academy lectures: Corinthian order of the Temple of Castor and Pollux. Sir John Soane's Museum, London, SM 23/9/3. https://collections.soane.org/THES68069."
  },
  {
   "id": "F00-02",
@@ -49,7 +55,9 @@
   "img": "img/F00-02.jpg",
   "w": 724,
   "h": 573,
-  "pub": true
+  "pub": true,
+  "pie_en": "George Keate, The manner of passing Mount Cenis, 1755.",
+  "ref_en": "Fig. 1.4. George Keate, The manner of passing Mount Cenis, 1755. British Museum, London, 1878,0209.304. https://www.britishmuseum.org/collection/object/P_1878-0209-304."
  },
  {
   "id": "F01-04",
@@ -62,7 +70,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Sheila O'Donnell, drawing on Giambattista Nolli’s Nuova Topografia di Roma (detail), 2020.",
+  "ref_en": "Fig. 1.5. Sheila O'Donnell, drawing on Giambattista Nolli’s Nuova Topografia di Roma (detail), 2020. Cortesía de la autora. Reproduced in Sheila O'Donnell, «Drawing on the Nolli Plan», Drawing Matter, 1 de mayo de 2020. https://drawingmatter.org/nolli-plan/."
  },
  {
   "id": "F00-03",
@@ -75,7 +85,9 @@
   "img": "img/F00-03.jpg",
   "w": 1200,
   "h": 891,
-  "pub": true
+  "pub": true,
+  "pie_en": "Giovanni Battista Piranesi, Veduta della Piazza del Popolo, from the Vedute di Roma, c. 1750.",
+  "ref_en": "Fig. 0.3. Giovanni Battista Piranesi, Veduta della Piazza del Popolo, from the Vedute di Roma, c. 1750. 1750, aguafuerte, 38 × 54 cm (imagen). The Metropolitan Museum of Art, New York, Harris Brisbane Dick Fund, 1937, 37.45.3(49). https://www.metmuseum.org/art/collection/search/362729."
  },
  {
   "id": "F02-03",
@@ -88,7 +100,9 @@
   "img": "img/F02-03.jpg",
   "w": 1286,
   "h": 771,
-  "pub": true
+  "pub": true,
+  "pie_en": "Plan de la ville de Pompéi et des fouilles…, c. 1780.",
+  "ref_en": "Fig. 1.7. Plan de la ville de Pompéi et des fouilles…, c. 1780. 1780, engraving. Museum With No Frontiers, Sharing History, RESERVE GD-12D-FT 4. https://sharinghistory.museumwnf.org/database_item.php?id=object;AWE;fr;14;en."
  },
  {
   "id": "F00-05",
@@ -101,7 +115,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Denise Scott Brown in front of the Las Vegas Strip.",
+  "ref_en": "Fig. 1.8. Denise Scott Brown in front of the Las Vegas Strip, photograph. Archives of Robert Venturi and Denise Scott Brown. Reproduced in Nicholas Korody, «Learning from ‘Learning from Las Vegas’ with Denise Scott Brown, Part I: The Foundation», Archinect, 28 de septiembre de 2016. https://archinect.com/features/article/149970924/learning-from-learning-from-las-vegas-with-denise-scott-brown-part-i-the-foundation."
  },
  {
   "id": "F01-05",
@@ -114,7 +130,9 @@
   "img": "img/F01-05.jpg",
   "w": 1020,
   "h": 660,
-  "pub": true
+  "pub": true,
+  "pie_en": "The experiential learning cycle applied to the initiatory journey.",
+  "ref_en": "Fig. 1.9. The experiential learning cycle applied to the initiatory journey: experiencia, observación, conceptualización y experimentación. Author’s own work a partir de Kolb (1984)."
  },
  {
   "id": "F00-04",
@@ -127,7 +145,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Álvaro Siza, sketch of the Roman Forum, Rome.",
+  "ref_en": "Fig. 1.10. Álvaro Siza, sketch of the Roman Forum, Rome. Reproduced in Luis Fernández-Galiano, «Grand Tour», Arquitectura Viva, no. 165 (2014). https://arquitecturaviva.com/articulos/grand-tour."
  },
  {
   "id": "F02-19",
@@ -140,7 +160,9 @@
   "img": "img/F02-19.jpg",
   "w": 1633,
   "h": 1075,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane, section of the Pantheon, Rome, 1778.",
+  "ref_en": "Fig. 2.1. John Soane, section of the Pantheon, Rome, 1778. Sir John Soane's Museum, London, SM 45/3/53. https://collections.soane.org/OBJECT120."
  },
  {
   "id": "F02-12",
@@ -153,7 +175,9 @@
   "img": "img/F02-12.jpg",
   "w": 703,
   "h": 473,
-  "pub": true
+  "pub": true,
+  "pie_en": "William Kent (attrib.), landscape with circular temple.",
+  "ref_en": "Fig. 2.2. William Kent (attrib.), landscape with circular temple. https://www.mindeguia.com/dibex/Kent_ilustres.htm."
  },
  {
   "id": "F03-01",
@@ -166,7 +190,9 @@
   "img": "img/F03-01.jpg",
   "w": 602,
   "h": 381,
-  "pub": true
+  "pub": true,
+  "pie_en": "Lassus and Viollet-le-Duc, restoration of Notre-Dame de Paris, 1847.",
+  "ref_en": "Fig. 2.3. Lassus and Viollet-le-Duc, restoration of Notre-Dame de Paris, 1847. Attachement de maçonnerie no. 3, 1847, tinta y aguada sobre papel. Médiathèque du patrimoine et de la photographie. Reproduced in Peter Sealy, «Viollet-le-Duc: Drawing Worlds», Drawing Matter, 4 de junio de 2026. https://drawingmatter.org/viollet-le-duc-drawing-worlds/."
  },
  {
   "id": "F01-01",
@@ -179,7 +205,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "John Ruskin, The Lamp of Memory (Penguin Great Ideas), cover.",
+  "ref_en": "Fig. 2.4. John Ruskin, The Lamp of Memory (Penguin Great Ideas), cover"
  },
  {
   "id": "F03-02",
@@ -192,7 +220,9 @@
   "img": "img/F03-02.jpg",
   "w": 563,
   "h": 931,
-  "pub": true
+  "pub": true,
+  "pie_en": "Viollet-le-Duc, Dictionnaire raisonné de l'architecture française, vol. II, title page.",
+  "ref_en": "Fig. 2.5. Viollet-le-Duc, Dictionnaire raisonné de l'architecture française, vol. II, title page. II (París: B. Bance), title page. https://es.wikipedia.org/wiki/Archivo:Dictionnaire_Raisonn%C3%A9_de_Architecture_peque%C3%B1o.png."
  },
  {
   "id": "F00-06",
@@ -205,7 +235,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Louis I. Kahn, Temple of Horus, Edfu (Egypt), c. 1951.",
+  "ref_en": "Fig. 2.6. Louis I. Kahn, Temple of Horus, Edfu (Egypt), c. 1951, pastel sobre papel. Reproduced in «Two Exhibits, One Architect», Architexturez, 20 de abril de 2017. https://architexturez.net/pst/az-cf-182360-1492661651."
  },
  {
   "id": "F00-07",
@@ -218,7 +250,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Frank Lloyd Wright, travellers on a mountain pass, Japan, 1905.",
+  "ref_en": "Fig. 2.7. Frank Lloyd Wright, travellers on a mountain pass, Japan, 1905. Frank Lloyd Wright Trust, Chicago. Reproduced in Claire Voon, «Seeing Japan Through the Eyes of Frank Lloyd Wright», Hyperallergic, 13 de octubre de 2017. https://hyperallergic.com/seeing-japan-through-the-eyes-of-frank-lloyd-wright/."
  },
  {
   "id": "F00-08",
@@ -231,7 +265,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Frank Lloyd Wright, Great Buddha of Nōfuku-ji temple, Kobe, 1905.",
+  "ref_en": "Fig. 2.8. Frank Lloyd Wright, Great Buddha of Nōfuku-ji temple, Kobe, 1905, black-and-white photograph. Frank Lloyd Wright Trust, Chicago. Reproduced in Claire Voon, «Seeing Japan Through the Eyes of Frank Lloyd Wright», Hyperallergic, 13 de octubre de 2017. https://hyperallergic.com/seeing-japan-through-the-eyes-of-frank-lloyd-wright/."
  },
  {
   "id": "F00-09",
@@ -244,7 +280,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Venturi, Scott Brown and Izenour, Nolli plan with a Las Vegas postcard, in Learning from Las Vegas, 1972.",
+  "ref_en": "Fig. 2.9. Venturi, Scott Brown and Izenour, Nolli plan with a Las Vegas postcard, in Learning from Las Vegas, 1972. Reproduced in Robert Venturi, Denise Scott Brown y Steven Izenour, Learning from Las Vegas (Cambridge, MA: MIT Press, 1972), fig. [no.]; tomada de Nicholas Korody, «Learning from ‘Learning from Las Vegas’ with Denise Scott Brown, Part I: The Foundation», Archinect, 28 de septiembre de 2016. https://archinect.com/features/article/149970924/learning-from-learning-from-las-vegas-with-denise-scott-brown-part-i-the-foundation."
  },
  {
   "id": "F02-24",
@@ -257,7 +295,9 @@
   "img": "img/F02-24.jpg",
   "w": 544,
   "h": 790,
-  "pub": true
+  "pub": true,
+  "pie_en": "Thomas Lawrence, portrait of Sir John Soane, 1828–1829.",
+  "ref_en": "Fig. 3.1. Thomas Lawrence, portrait of Sir John Soane, 1828–1829. Sir John Soane's Museum, London, SM P11. https://es.wikipedia.org/wiki/Archivo:Thomas_Lawrence_John_Soane.JPG."
  },
  {
   "id": "F02-25",
@@ -270,7 +310,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Itinerary of John Soane’s journey through Italy (1778–1780).",
+  "ref_en": "Fig. 3.2. Itinerary of John Soane’s journey through Italy (1778–1780). Author’s own work."
  },
  {
   "id": "F02-26",
@@ -283,7 +325,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Chronological axis of John Soane.",
+  "ref_en": "Fig. 3.3. Chronological axis of John Soane. Author’s own work."
  },
  {
   "id": "F02-21",
@@ -296,7 +340,9 @@
   "img": "img/F02-21.jpg",
   "w": 360,
   "h": 220,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane, travel notebook: the Colosseum, 1779.",
+  "ref_en": "Fig. 3.4. John Soane, travel notebook: the Colosseum, 1779. Sir John Soane's Museum, London, SM volume 39. https://collections.soane.org/SKETCH14."
  },
  {
   "id": "F02-15",
@@ -309,7 +355,9 @@
   "img": "img/F02-15.jpg",
   "w": 1126,
   "h": 993,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane, travel notebook: Pompeii, 22 January 1779.",
+  "ref_en": "Fig. 3.5. John Soane, travel notebook: Pompeii, 22 January 1779. Sir John Soane's Museum, London, SM volume 164. https://collections.soane.org/SKETCH8."
  },
  {
   "id": "F02-14",
@@ -322,7 +370,9 @@
   "img": "img/F02-14.jpg",
   "w": 768,
   "h": 469,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane, travel notebook: from Genoa to Milan, 1780.",
+  "ref_en": "Fig. 3.6. John Soane, travel notebook: from Genoa to Milan, 1780. Sir John Soane's Museum, London, SM volume 162. https://collections.soane.org/SKETCH13."
  },
  {
   "id": "F02-06",
@@ -335,7 +385,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "John Soane, Bank of England, London, 1800–1833: plan (redrawn).",
+  "ref_en": "Fig. 3.7. John Soane, Bank of England, London, 1800–1833: plan (redrawn). ETH Zúrich, Archive of References, Zúrich, Source: [https://sharinghistory.museumwnf.org/database_item.php?id=object;AWE;fr;14;en&cp]. https://caruso.arch.ethz.ch/archive/references/type/14."
  },
  {
   "id": "F02-01",
@@ -348,7 +400,9 @@
   "img": "img/F02-01.jpg",
   "w": 1385,
   "h": 1800,
-  "pub": true
+  "pub": true,
+  "pie_en": "Giovanni Paolo Panini, Interior of the Pantheon, Rome, c. 1734.",
+  "ref_en": "Fig. 3.8. Giovanni Paolo Panini, Interior of the Pantheon, Rome, c. 1734, oil on canvas, 128 × 99 cm. National Gallery of Art, Washington, Samuel H. Kress Collection, 1939.1.24. https://www.nga.gov/artworks/165-interior-pantheon-rome."
  },
  {
   "id": "F02-04",
@@ -361,7 +415,9 @@
   "img": "img/F02-04.jpg",
   "w": 1260,
   "h": 1133,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane’s office, Rotunda of the Bank of England, 1798.",
+  "ref_en": "Fig. 3.9. John Soane’s office, Rotunda of the Bank of England, 1798. Sir John Soane's Museum, London, SM 9/2/1C. https://collections.soane.org/THES66716."
  },
  {
   "id": "F02-20",
@@ -374,7 +430,9 @@
   "img": "img/F02-20.jpg",
   "w": 360,
   "h": 219,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane, travel notebook: temple at Paestum, 1779.",
+  "ref_en": "Fig. 3.10. John Soane, travel notebook: temple at Paestum, 1779. Sir John Soane's Museum, London, SM volume 39. https://collections.soane.org/SKETCH14."
  },
  {
   "id": "F02-18",
@@ -387,7 +445,9 @@
   "img": "img/F02-18.jpg",
   "w": 360,
   "h": 216,
-  "pub": true
+  "pub": true,
+  "pie_en": "François Fouquet, model of the Temple of “Neptune” at Paestum, c. 1800–1834.",
+  "ref_en": "Fig. 3.11. François Fouquet, model of the Temple of “Neptune” at Paestum, c. 1800–1834. 1800–1834, plaster, 17,5 × 16,6 × 33,8 cm. Sir John Soane's Museum, London, MR27. https://collections.soane.org/object-mr27."
  },
  {
   "id": "F02-02",
@@ -400,7 +460,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "John Soane, barn at Malvern Hall, Solihull, c. 1798.",
+  "ref_en": "Fig. 3.12. John Soane, barn at Malvern Hall, Solihull, c. 1798. Claude Jobin (blog). https://www.claudejobin.com/architect-sir-john-soane/."
  },
  {
   "id": "F02-16",
@@ -413,7 +475,9 @@
   "img": "img/F02-16.jpg",
   "w": 510,
   "h": 746,
-  "pub": true
+  "pub": true,
+  "pie_en": "Andrea Palladio, I quattro libri dell'architettura, 1570, book IV, p. 92.",
+  "ref_en": "Fig. 3.13. Andrea Palladio, I quattro libri dell'architettura, 1570, book IV, p. 92. Reproduced in I quattro libri dell'architettura (Venecia: Domenico de' Franceschi, 1570), libro IV, p. 92."
  },
  {
   "id": "F02-17",
@@ -426,7 +490,9 @@
   "img": "img/F02-17.jpg",
   "w": 729,
   "h": 800,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane, model of the Tivoli Corner of the Bank of England, 1805.",
+  "ref_en": "Fig. 3.14. John Soane, model of the Tivoli Corner of the Bank of England, 1805. Sir John Soane's Museum, London, MP225. https://collections.soane.org/object-mp225."
  },
  {
   "id": "F02-07",
@@ -439,7 +505,9 @@
   "img": "img/F02-07.jpg",
   "w": 360,
   "h": 242,
-  "pub": true
+  "pub": true,
+  "pie_en": "John Soane’s office, Sulby Lodge: elevation, 1792.",
+  "ref_en": "Fig. 3.15. John Soane’s office, Sulby Lodge: elevation, 1792. Sir John Soane's Museum, London, SM 7/2/34. https://collections.soane.org/ARC9235."
  },
  {
   "id": "F02-08",
@@ -452,7 +520,9 @@
   "img": "img/F02-08.jpg",
   "w": 656,
   "h": 438,
-  "pub": true
+  "pub": true,
+  "pie_en": "Andrea Palladio, Villa Saraceno, Finale di Agugliaro, c. 1545–1555.",
+  "ref_en": "Fig. 3.16. Andrea Palladio, Villa Saraceno, Finale di Agugliaro, c. 1545–1555. Rosbach, Andrea Palladio, Villa Saraceno, Finale di Agugliaro (Vicenza), photograph. Wikimedia Commons. https://es.wikipedia.org/wiki/Villa_Saraceno."
  },
  {
   "id": "F09-01",
@@ -465,7 +535,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles Garnier.",
+  "ref_en": "Fig. 4.1. Charles Garnier. Wikimedia Commons."
  },
  {
   "id": "F03-09",
@@ -478,7 +550,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Itinerary of Charles Garnier’s journey through Spain (1868).",
+  "ref_en": "Fig. 4.2. Itinerary of Charles Garnier’s journey through Spain (1868). Author’s own work."
  },
  {
   "id": "F03-11",
@@ -491,7 +565,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Chronological axis of Charles Garnier.",
+  "ref_en": "Fig. 4.3. Chronological axis of Charles Garnier. Author’s own work."
  },
  {
   "id": "F03-04",
@@ -504,7 +580,9 @@
   "img": "img/F03-04.jpg",
   "w": 1800,
   "h": 1118,
-  "pub": true
+  "pub": true,
+  "pie_en": "Charles Garnier, Chiclana and From Chiclana to Vejer, 1868.",
+  "ref_en": "Fig. 4.4. Charles Garnier, Chiclana and From Chiclana to Vejer, 1868. Bibliothèque nationale de France, Paris. Reproduced in Fernando Marías y Véronique Gerard Powell (eds.), Viaje a España por Louise, Gustave Boulanger, Ambroise Baudry y Charles Garnier (1868), vol. 2: facsímil (Donostia-San Sebastián: Nerea, 2012), 96."
  },
  {
   "id": "F03-07",
@@ -517,7 +595,9 @@
   "img": "img/F03-07.jpg",
   "w": 1235,
   "h": 1800,
-  "pub": true
+  "pub": true,
+  "pie_en": "Richard Ford, Seville. Nazareno, 1830–1833.",
+  "ref_en": "Fig. 4.5. Richard Ford, Seville. Nazareno, 1830–1833. Nazareno (anotado «Nazareno penitente de Sevilla» y «Capirote»), 1830–1833, lápiz, tinta y aguada sobre papel, 140 × 97 mm. Colección de la familia Ford, London. Reproduced in Francisco Javier Rodríguez Barberán (ed.), Richard Ford. Viajes por España (1830-1833), cat. exp. (Madrid: Real Academia de Bellas Artes de San Fernando y Fundación MAPFRE, 2014), cat. 59."
  },
  {
   "id": "F03-05",
@@ -530,7 +610,9 @@
   "img": "img/F03-05.jpg",
   "w": 1800,
   "h": 1200,
-  "pub": true
+  "pub": true,
+  "pie_en": "Itinerary table of Garnier’s journey: from Linares to Seville, 1868.",
+  "ref_en": "Fig. 4.6. Itinerary table of Garnier’s journey: from Linares to Seville, 1868. Bibliothèque nationale de France, Paris. Reproduced in Fernando Marías y Véronique Gerard Powell (eds.), Viaje a España por Louise, Gustave Boulanger, Ambroise Baudry y Charles Garnier (1868), vol. 2: facsímil (Donostia-San Sebastián: Nerea, 2012)."
  },
  {
   "id": "F03-08",
@@ -543,7 +625,9 @@
   "img": "img/F03-08.jpg",
   "w": 1800,
   "h": 796,
-  "pub": true
+  "pub": true,
+  "pie_en": "Richard Ford, view of Seville, 1832.",
+  "ref_en": "Fig. 4.7. Richard Ford, view of Seville, 1832. Colección de la familia Ford, London. Reproduced in Francisco Javier Rodríguez Barberán (ed.), Richard Ford. Viajes por España (1830-1833), cat. exp. (Madrid: Real Academia de Bellas Artes de San Fernando y Fundación MAPFRE, 2014), cat. [no.]."
  },
  {
   "id": "F03-03",
@@ -556,7 +640,9 @@
   "img": "img/F03-03.jpg",
   "w": 1800,
   "h": 1158,
-  "pub": true
+  "pub": true,
+  "pie_en": "Garnier’s notebook from the journey to Spain, 1868: Andalusian types.",
+  "ref_en": "Fig. 4.8. Garnier’s notebook from the journey to Spain, 1868: Andalusian types. Bibliothèque nationale de France, Paris. Reproduced in Fernando Marías y Véronique Gerard Powell (eds.), Viaje a España por Louise, Gustave Boulanger, Ambroise Baudry y Charles Garnier (1868), vol. 2: facsímil (Donostia-San Sebastián: Nerea, 2012)."
  },
  {
   "id": "F03-06",
@@ -569,7 +655,9 @@
   "img": "img/F03-06.jpg",
   "w": 1800,
   "h": 1099,
-  "pub": true
+  "pub": true,
+  "pie_en": "Charles Garnier, Seville, 1868.",
+  "ref_en": "Fig. 4.9. Charles Garnier, Seville, 1868. Bibliothèque nationale de France, Paris. Reproduced in Fernando Marías y Véronique Gerard Powell (eds.), Viaje a España por Louise, Gustave Boulanger, Ambroise Baudry y Charles Garnier (1868), vol. 2: facsímil (Donostia-San Sebastián: Nerea, 2012)."
  },
  {
   "id": "F03-10",
@@ -582,7 +670,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles Garnier, Paris Opéra: ground floor plan, Le Nouvel Opéra de Paris, 1876–1880.",
+  "ref_en": "Fig. 4.10. Charles Garnier, Paris Opéra: ground floor plan, Le Nouvel Opéra de Paris, 1876–1880. Rebout y Maurage). Wikimedia Commons. Reproduced in Charles Garnier, Le Nouvel Opéra de Paris (París: Ducher, 1876–1880), lám. [no.]; escaneada de Christopher Curtis Mead, Charles Garnier's Paris Opéra: Architectural Empathy and the Renaissance of French Classicism (New York: The Architectural History Foundation; Cambridge, MA: MIT Press, 1991), 101. https://commons.wikimedia.org/wiki/File:Palais_Garnier_plan_at_ground_floor_-_Mead_1991_p101.jpg."
  },
  {
   "id": "F09-03",
@@ -595,7 +685,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret on the Acropolis, Athens, 1911.",
+  "ref_en": "Fig. 5.1. Charles-Édouard Jeanneret on the Acropolis, Athens, 1911. Wikimedia Commons."
  },
  {
   "id": "F04-24",
@@ -608,7 +700,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Itinerary of Charles-Édouard Jeanneret’s Journey to the East (1911).",
+  "ref_en": "Fig. 5.2. Itinerary of Charles-Édouard Jeanneret’s Journey to the East (1911). Author’s own work."
  },
  {
   "id": "F04-28",
@@ -621,7 +715,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Chronological axis of Le Corbusier.",
+  "ref_en": "Fig. 5.3. Chronological axis of Le Corbusier. Author’s own work."
  },
  {
   "id": "F04-25",
@@ -634,7 +730,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret, Pera and Istanbul from Taksim, 1911.",
+  "ref_en": "Fig. 5.4. Charles-Édouard Jeanneret, Pera and Istanbul from Taksim, 1911, watercolour on paper. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 159; originalmente en Le Corbusier before Le Corbusier (Londres: Yale University Press, 2002)."
  },
  {
   "id": "F04-26",
@@ -647,7 +745,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret, tombs in the Eyüp cemetery, Istanbul, 1911.",
+  "ref_en": "Fig. 5.5. Charles-Édouard Jeanneret, tombs in the Eyüp cemetery, Istanbul, 1911. Fondation Le Corbusier, Paris, FLC 2854. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 136."
  },
  {
   "id": "F04-27",
@@ -660,7 +760,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret, the Parthenon, Athens, 1911.",
+  "ref_en": "Fig. 5.6. Charles-Édouard Jeanneret, the Parthenon, Athens, 1911. Fondation Le Corbusier, Paris, FLC 2850. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 241."
  },
  {
   "id": "F04-09",
@@ -673,7 +775,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Hagia Sophia, Istanbul, interior.",
+  "ref_en": "Fig. 5.7. Hagia Sophia, Istanbul, interior. La Vanguardia, «Las fotos de los lectores». https://www.lavanguardia.com/participacion/las-fotos-de-los-lectores/20200714/482284439970/polemica-santa-sofia-museo-mezquita-turquia-unesco-papa.html."
  },
  {
   "id": "F04-08",
@@ -686,7 +790,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Le Corbusier and José Oubrerie, Saint-Pierre, Firminy, 1960–2006.",
+  "ref_en": "Fig. 5.8. Le Corbusier and José Oubrerie, Saint-Pierre, Firminy, 1960–2006. Saint-Étienne Hors Cadre. https://www.saint-etienne-hors-cadre.fr/en/explorer/incontournables/collection/at-mr-le-corbusiers/."
  },
  {
   "id": "F04-19",
@@ -699,7 +805,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret, Süleymaniye Mosque, Istanbul, 1911.",
+  "ref_en": "Fig. 5.9. Charles-Édouard Jeanneret, Süleymaniye Mosque, Istanbul, 1911. Fondation Le Corbusier, Paris. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 116."
  },
  {
   "id": "F04-18",
@@ -712,7 +820,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Walter Hege, Erechtheion, Athens, c. 1930.",
+  "ref_en": "Fig. 5.10. Walter Hege, Erechtheion, Athens, c. 1930, black-and-white photograph. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 248; originalmente en Gerhart Rodenwaldt, L'Acropole (París: Arts et métiers graphiques, 1930)."
  },
  {
   "id": "F04-17",
@@ -725,7 +835,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Le Corbusier, Monastery of La Tourette: light cannons, 1953–1960.",
+  "ref_en": "Fig. 5.11. Le Corbusier, Monastery of La Tourette: light cannons, 1953–1960. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 249; originalmente en Colin Rowe, «Dominican Monastery of La Tourette, Eveux-sur-Arbresle, Lyons», Architectural Review, no. 1129 (1961)."
  },
  {
   "id": "F04-20",
@@ -738,7 +850,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret, monastery on Mount Athos, 1911.",
+  "ref_en": "Fig. 5.12. Charles-Édouard Jeanneret, monastery on Mount Athos, 1911. Fondation Le Corbusier, Paris. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 190; originalmente en Le Corbusier, Voyage d'Orient. Carnets, carnet 3 (París: Electa / Fondation Le Corbusier, 1987)."
  },
  {
   "id": "F04-14",
@@ -751,7 +865,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Charles-Édouard Jeanneret (Le Corbusier), sketch of a monastery on a crag.",
+  "ref_en": "Fig. 5.13. Charles-Édouard Jeanneret (Le Corbusier), sketch of a monastery on a crag. Fondation Le Corbusier, Paris. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 191."
  },
  {
   "id": "F04-21",
@@ -764,7 +880,9 @@
   "img": "img/F04-21.jpg",
   "w": 1800,
   "h": 1212,
-  "pub": true
+  "pub": true,
+  "pie_en": "Postcard “Mont Athos – Couvent Karakalou”, c. 1911.",
+  "ref_en": "Fig. 5.14. Postcard “Mont Athos – Couvent Karakalou”, c. 1911. 1911, postcard coloreada. Fondation Le Corbusier, Paris. Reproduced in Ricardo Daza Caicedo, Tras el viaje de Oriente: Charles-Édouard Jeanneret – Le Corbusier, Colección Arquia/tesis 39 (Barcelona: Fundación Caja de Arquitectos, 2015), fig. 198."
  },
  {
   "id": "F04-04",
@@ -777,7 +895,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Le Corbusier, Monastery of La Tourette, Éveux, 1953–1960.",
+  "ref_en": "Fig. 5.15. Le Corbusier, Monastery of La Tourette, Éveux, 1953–1960. ArchDaily. https://www.archdaily.com/es/769035/clasicos-de-la-arquitectura-convento-de-la-tourette-le-corbuiser."
  },
  {
   "id": "F09-02",
@@ -790,7 +910,9 @@
   "img": "img/F09-02.jpg",
   "w": 316,
   "h": 316,
-  "pub": true
+  "pub": true,
+  "pie_en": "Portrait of Jørn Utzon.",
+  "ref_en": "Fig. 6.1. Portrait of Jørn Utzon, black-and-white photograph. Reproduced in Architectuul, «Jorn Utzon». https://architectuul.com/architect/jorn-utzon."
  },
  {
   "id": "F05-12",
@@ -803,7 +925,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Itinerary of Jørn Utzon’s journey through China (1958), with the complete route in the inset.",
+  "ref_en": "Fig. 6.2. Itinerary of Jørn Utzon’s journey through China (1958), with the complete route in the inset. Author’s own work."
  },
  {
   "id": "F05-13",
@@ -816,7 +940,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Chronological axis of Jørn Utzon.",
+  "ref_en": "Fig. 6.3. Chronological axis of Jørn Utzon. Author’s own work."
  },
  {
   "id": "F05-01",
@@ -829,7 +955,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Jørn Utzon, journey to China: temple complex, view of the roofs, 1958.",
+  "ref_en": "Fig. 6.4. Jørn Utzon, journey to China: temple complex, view of the roofs, 1958. Utzon Archives, Aalborg University and Utzon Center, Aalborg, Photography, Travel studies, China, 1957-66. https://utzon-archives.aau.dk/photography/Travel_studies/China%2C1957-66/."
  },
  {
   "id": "F05-04",
@@ -842,7 +970,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Jørn Utzon, journey to China: parade in Tiananmen Square, Beijing, 1958.",
+  "ref_en": "Fig. 6.5. Jørn Utzon, journey to China: parade in Tiananmen Square, Beijing, 1958. Utzon Archives, Aalborg University and Utzon Center, Aalborg, Photography, Travel studies, China, 1957-66. https://utzon-archives.aau.dk/photography/Travel_studies/China%2C1957-66/."
  },
  {
   "id": "F05-03",
@@ -855,7 +985,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Jørn Utzon, journey to China: Temple of Heaven, Beijing, 1958.",
+  "ref_en": "Fig. 6.6. Jørn Utzon, journey to China: Temple of Heaven, Beijing, 1958. Utzon Archives, Aalborg University and Utzon Center, Aalborg, Photography, Travel studies, China, 1957-66. https://utzon-archives.aau.dk/photography/Travel_studies/China%2C1957-66/."
  },
  {
   "id": "F05-02",
@@ -868,7 +1000,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Jørn Utzon, journey to China: Yungang Grottoes, Datong, 1958.",
+  "ref_en": "Fig. 6.7. Jørn Utzon, journey to China: Yungang Grottoes, Datong, 1958. Utzon Archives, Aalborg University and Utzon Center, Aalborg, Photography, Travel studies, China, 1957-66. https://utzon-archives.aau.dk/photography/Travel_studies/China%2C1957-66/."
  },
  {
   "id": "F05-08",
@@ -881,7 +1015,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Brackets from the Yingzao fashi and models of the Minor Hall of the Sydney Opera House.",
+  "ref_en": "Fig. 6.8. Brackets from the Yingzao fashi and models of the Minor Hall of the Sydney Opera House. Utzon Archives, Aalborg University Library, Aalborg. Reproduced in Chen-Yu Chiu, «China Receives Utzon: The Role of Jørn Utzon's 1958 Study Trip to China in His Architectural Maturity», Architectural Histories 4, no. 1 (2016): art. 12, fig. 10. https://doi.org/10.5334/ah.182."
  },
  {
   "id": "F05-09",
@@ -894,7 +1030,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Polychromy from the Yingzao fashi and colour scheme of the Major Hall of the Sydney Opera House.",
+  "ref_en": "Fig. 6.9. Polychromy from the Yingzao fashi and colour scheme of the Major Hall of the Sydney Opera House. Utzon Archives, Aalborg University Library, Aalborg. Reproduced in Chen-Yu Chiu, «China Receives Utzon: The Role of Jørn Utzon's 1958 Study Trip to China in His Architectural Maturity», Architectural Histories 4, no. 1 (2016): art. 12, fig. 11. https://doi.org/10.5334/ah.182."
  },
  {
   "id": "F05-10",
@@ -907,7 +1045,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Gate of the Zhiyuan monastery and Jørn Utzon’s Bagsværd Church.",
+  "ref_en": "Fig. 6.10. Gate of the Zhiyuan monastery and Jørn Utzon’s Bagsværd Church. Utzon Archives, Aalborg University Library, Aalborg. Reproduced in Chen-Yu Chiu, «China Receives Utzon: The Role of Jørn Utzon's 1958 Study Trip to China in His Architectural Maturity», Architectural Histories 4, no. 1 (2016): art. 12, fig. 15; izq.: Johannes Prip-Møller, Chinese Buddhist Monasteries (Copenhague: G. E. C. Gad; Londres: Oxford University Press, 1937). https://doi.org/10.5334/ah.182."
  },
  {
   "id": "F05-11",
@@ -920,7 +1060,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Plan of the Erwang temple (Chang and Blaser, 1987).",
+  "ref_en": "Fig. 6.11. Plan of the Erwang temple (Chang and Blaser, 1987). Reproduced in Chen-Yu Chiu, «China Receives Utzon: The Role of Jørn Utzon's 1958 Study Trip to China in His Architectural Maturity», Architectural Histories 4, no. 1 (2016): art. 12, fig. 21; originalmente en Amos Ih Tiao Chang y Werner Blaser, China: Tao in Architecture (Basilea: Birkhäuser, 1987), 144. https://doi.org/10.5334/ah.182."
  },
  {
   "id": "F05-06",
@@ -933,7 +1075,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Jørn Utzon, Can Feliz, Mallorca, 1994.",
+  "ref_en": "Fig. 6.12. Jørn Utzon, Can Feliz, Mallorca, 1994: vista aérea, photograph. Utzon Archives, Aalborg University Library, Aalborg. Reproduced in Chen-Yu Chiu, «China Receives Utzon: The Role of Jørn Utzon's 1958 Study Trip to China in His Architectural Maturity», Architectural Histories 4, no. 1 (2016): art. 12, fig. 20. https://doi.org/10.5334/ah.182."
  },
  {
   "id": "F09-04",
@@ -946,7 +1090,9 @@
   "img": "img/F09-04.jpg",
   "w": 683,
   "h": 856,
-  "pub": true
+  "pub": true,
+  "pie_en": "Tadao Ando, 2004.",
+  "ref_en": "Fig. 7.1. Tadao Ando, 2004. Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Tadao_Ando_2004.jpg."
  },
  {
   "id": "F06-10",
@@ -959,7 +1105,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Itinerary of Tadao Ando’s journey (1965).",
+  "ref_en": "Fig. 7.2. Itinerary of Tadao Ando’s journey (1965). Author’s own work."
  },
  {
   "id": "F06-11",
@@ -972,7 +1120,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Chronological axis of Tadao Ando.",
+  "ref_en": "Fig. 7.3. Chronological axis of Tadao Ando. Author’s own work."
  },
  {
   "id": "F06-08",
@@ -985,7 +1135,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, Grand Tour (at the Parthenon), 1964 [1965?].",
+  "ref_en": "Fig. 7.4. Tadao Ando, Grand Tour (at the Parthenon), 1964 [1965?], colour photograph. Tadao Ando Architect & Associates, Osaka. Captura de pantalla de Google Arts & Culture. https://artsandculture.google.com/asset/grand-tour-at-the-parthenon-tadao-ando/SwFOsAl8atJCmw."
  },
  {
   "id": "F06-09",
@@ -998,7 +1150,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, Grand Tour (Trans-Siberian Railway to Europe), 1964 [1965?].",
+  "ref_en": "Fig. 7.5. Tadao Ando, Grand Tour (Trans-Siberian Railway to Europe), 1964 [1965?], colour photograph. Tadao Ando Architect & Associates, Osaka. Captura de pantalla de Google Arts & Culture. https://artsandculture.google.com/asset/grand-tour-trans-siberian-railway-to-europe-tadao-ando/CgGCStBPincMjw."
  },
  {
   "id": "F04-06",
@@ -1011,7 +1165,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Le Corbusier, Villa Savoye, Poissy, 1928–1931.",
+  "ref_en": "Fig. 7.6. Le Corbusier, Villa Savoye, Poissy, 1928–1931. Museum of Modern Art, New York. https://www.moma.org/collection/works/168006."
  },
  {
   "id": "F06-04",
@@ -1024,7 +1180,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, Azuma House, Sumiyoshi, 1976.",
+  "ref_en": "Fig. 7.7. Tadao Ando, Azuma House, Sumiyoshi, 1976. WikiArquitectura. https://es.wikiarquitectura.com/edificio/casa-azuma/azuma14/."
  },
  {
   "id": "F04-02",
@@ -1037,7 +1195,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Le Corbusier, Cabanon and camping units, Roquebrune-Cap-Martin, 1952–1957.",
+  "ref_en": "Fig. 7.8. Le Corbusier, Cabanon and camping units, Roquebrune-Cap-Martin, 1952–1957. Arquiscopio. https://arquiscopio.com/archivo/2013/09/03/petit-cabanon/."
  },
  {
   "id": "F06-01",
@@ -1050,7 +1210,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, 4×4 House, Kobe, 2003.",
+  "ref_en": "Fig. 7.9. Tadao Ando, 4×4 House, Kobe, 2003. ArchEyes. https://archeyes.com/es/casa-4x4-tadao-ando-kobe-torre-hormigon-costa-hyogo/."
  },
  {
   "id": "F04-07",
@@ -1063,7 +1225,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Le Corbusier, Notre-Dame-du-Haut, Ronchamp, 1950–1955.",
+  "ref_en": "Fig. 7.10. Le Corbusier, Notre-Dame-du-Haut, Ronchamp, 1950–1955. Reproduced in Willy Boesiger (ed.), Le Corbusier et son atelier rue de Sèvres 35. Œuvre complète 1952–1957 (Zúrich: Girsberger, 1957), 33; tomada de Juan Miguel Hernández León, «Notas sobre Ronchamp: lo oculto y lo sagrado», Ra. Revista de Arquitectura, no. [x], [año], fig. 16. https://www.researchgate.net/publication/364545160."
  },
  {
   "id": "F06-02",
@@ -1076,7 +1240,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, Chichu Art Museum, Naoshima, 2004.",
+  "ref_en": "Fig. 7.11. Tadao Ando, Chichu Art Museum, Naoshima, 2004. Arquitectura Viva. https://arquitecturaviva.com/articulos/asi-es-naoshima."
  },
  {
   "id": "F06-07",
@@ -1089,7 +1255,9 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, Rokko Housing I, Kobe, 1978–1983.",
+  "ref_en": "Fig. 7.12. Tadao Ando, Rokko Housing I, Kobe, 1978–1983. WikiArquitectura. https://es.wikiarquitectura.com/00vivr/."
  },
  {
   "id": "F06-03",
@@ -1102,6 +1270,8 @@
   "img": null,
   "w": null,
   "h": null,
-  "pub": false
+  "pub": false,
+  "pie_en": "Tadao Ando, Church of the Light, Ibaraki, 1989.",
+  "ref_en": "Fig. 7.13. Tadao Ando, Church of the Light, Ibaraki, 1989. Arquitectura Viva. https://arquitecturaviva.com/obras/iglesia-de-la-luz-osaka."
  }
 ]

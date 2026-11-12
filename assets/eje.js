@@ -4,13 +4,14 @@
 'use strict';
 const NS='http://www.w3.org/2000/svg';
 function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e}
-const MES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const EN=document.documentElement.lang==='en';
+const MES=EN?['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']:['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 function parse(s){const m=/^(\d{1,2})\/(\d{1,2})\/(-?\d{1,4})$/.exec(s||'');if(!m)return null;const d=new Date(0);d.setUTCFullYear(+m[3],+m[2]-1,+m[1]);d.setUTCHours(0,0,0,0);return d.getTime()}
 function fmt(t){const d=new Date(t);return d.getUTCDate()+' '+MES[d.getUTCMonth()]+' '+d.getUTCFullYear()}
 const DIA=864e5;
 function GT_eje(cont,idx,color){
   return GT.json(GT.base+'data/ejes.json').then(ejes=>{
-    const e=ejes[idx];if(!e){cont.textContent='Eje no disponible';return}
+    const e=ejes[idx];if(!e){cont.textContent=EN?'Timeline not available':'Eje no disponible';return}
     const bl=e.bloques.map(b=>({...b,s:parse(b.a),e:parse(b.b)})).filter(b=>b.s!=null&&b.e!=null);
     // Orden de filas: el del eje original (por latitud, norte arriba); los nombres no incluidos van al final
     const filas=(e.filas||[]).slice();for(const b of bl){if(!filas.includes(b.n))filas.push(b.n)}
@@ -21,8 +22,8 @@ function GT_eje(cont,idx,color){
     const px=Math.max((ancho-lab)/span, largo?0:0);
     const W=lab+span*px+10,H=top+filas.length*alto+8;
     cont.innerHTML='';
-    const svg=el('svg',{width:W,height:H,viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':'Eje cronológico: '+e.nombre},cont);
-    filas.forEach((f,i)=>{if(i%2===0)el('rect',{x:0,y:top+i*alto,width:W,height:alto,fill:'#f6f4ef'},svg);const t=el('text',{x:4,y:top+i*alto+alto/2+3.5},svg);t.textContent=f.length>24?f.slice(0,23)+'…':f;const ti=el('title',{},t);ti.textContent=f});
+    const svg=el('svg',{width:W,height:H,viewBox:`0 0 ${W} ${H}`,role:'img','aria-label':(EN?'Timeline: ':'Eje cronológico: ')+e.nombre},cont);
+    filas.forEach((f,i)=>{if(i%2===0)el('rect',{x:0,y:top+i*alto,width:W,height:alto,fill:'#f6f4ef'},svg);const fn=GT.nombre(f);const t=el('text',{x:4,y:top+i*alto+alto/2+3.5},svg);t.textContent=fn.length>24?fn.slice(0,23)+'…':fn;const ti=el('title',{},t);ti.textContent=fn});
     // marcas temporales
     const d0=new Date(t0);
     if(largo){
@@ -43,7 +44,7 @@ function GT_eje(cont,idx,color){
       const trav=/traves|tren|barco|viaje en/i.test(b.n);
       const r=el('rect',{class:'b',x,y:top+i*alto+4,width:w,height:alto-8,rx:1.5,fill:trav?'#9c968c':(idx===5?(b.c||color):color),opacity:trav?.7:1},svg);
       const ti=el('title',{},r);const dias=Math.round((b.e-b.s)/DIA)+1;
-      ti.textContent=b.n+' · '+fmt(b.s)+' → '+fmt(b.e)+(largo?'':' ('+dias+' día'+(dias>1?'s':'')+')')+(b.nota?' · '+b.nota:'');
+      ti.textContent=GT.nombre(b.n)+' · '+fmt(b.s)+' → '+fmt(b.e)+(largo?'':' ('+dias+(EN?' day':' día')+(dias>1?'s':'')+')')+(b.nota?' · '+b.nota:'');
     }
   });
 }
