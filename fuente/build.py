@@ -76,8 +76,9 @@ def nav(actual):
             li=''.join(f'<li><a href="{u}"{" class=activo" if u==actual else ""}>{esc(x)}</a></li>' for u,x in sub)
             out.append(f'<li><a href="{url}"{act}>{esc(txt)}</a><ul>{li}</ul></li>')
         else: out.append(f'<li><a href="{url}"{act}>{esc(txt)}</a></li>')
-    otro = ('../'+nombre_actual) if L=='en' else ('en/'+nombre_actual)
-    out.append(f'<li class="idioma"><a href="{otro}" hreflang="{t("en","es")}" lang="{t("en","es")}" title="{t("Read in English","Leer en español")}">{t("EN","ES")}</a></li>')
+    es_href = ('../'+nombre_actual) if L=='en' else nombre_actual
+    en_href = nombre_actual if L=='en' else ('en/'+nombre_actual)
+    out.append(f'<li class="idioma"><a href="{es_href}" hreflang="es" lang="es"{" class=actual aria-current=true" if L=="es" else ""} title="Leer en español">ES</a><span>·</span><a href="{en_href}" hreflang="en" lang="en"{" class=actual aria-current=true" if L=="en" else ""} title="Read in English">EN</a></li>')
     return '<ul>'+''.join(out)+'</ul>'
 
 nombre_actual='index.html'
@@ -201,7 +202,7 @@ def inicio():
 <p class="autor"><strong>{AUTOR}</strong><br>{t("Tutora","Supervisor")}: {TUTORA}</p>
 </div>
 <div class="intro-sellos">{sellos}</div>
-<p class="intro-credito">Giovanni Paolo Panini, <em>{t("Interior del Panteón, Roma","Interior of the Pantheon, Rome")}</em>, c. 1734. National Gallery of Art, Washington ({t("dominio público","public domain")}).</p>
+<p class="intro-credito">G. P. Panini, <em>{t("Interior del Panteón","Interior of the Pantheon")}</em>, c. 1734 · NGA</p>
 <a class="intro-entrar" href="#inicio">{t("Entrar","Enter")}<i></i></a>
 </section>
 <section class="portada" id="inicio">

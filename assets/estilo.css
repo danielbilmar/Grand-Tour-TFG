@@ -15,12 +15,12 @@ img{max-width:100%;height:auto;display:block}
 
 /* cabecera */
 .barra{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--papel) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--linea)}
-.barra-in{max-width:1240px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:24px}
+.barra-in{max-width:1300px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:18px}
 .marca{font:500 21px/1 var(--serif);color:var(--tinta);text-decoration:none;white-space:nowrap;letter-spacing:.01em}
 .marca span{color:var(--acento)}
 nav.menu{margin-left:auto}
 nav.menu>ul{list-style:none;margin:0;padding:0;display:flex;gap:2px;align-items:center}
-nav.menu a{display:block;white-space:nowrap;padding:6px 8px;font:500 12.5px/1.2 var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--tinta);text-decoration:none;border-radius:3px}
+nav.menu a{display:block;white-space:nowrap;padding:6px 7px;font:500 12px/1.2 var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--tinta);text-decoration:none;border-radius:3px}
 nav.menu a:hover,nav.menu a.activo{color:var(--acento)}
 nav.menu li{position:relative}
 nav.menu li ul{display:none;position:absolute;top:100%;left:0;background:var(--papel);border:1px solid var(--linea);list-style:none;padding:6px 0;margin:0;min-width:230px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
@@ -213,7 +213,11 @@ footer.pie-sitio .envoltura{display:flex;flex-wrap:wrap;gap:10px 40px;justify-co
 .dedicatoria span{font-style:normal;font-size:22px;color:var(--tinta)}
 .agradecimientos{font:italic 400 19px/1.6 var(--serif);color:#3b3731}
 .agradecimientos p{margin:0 0 .5em}
-nav.menu li.idioma a{border:1px solid var(--linea);margin-left:6px;color:var(--acento)}
+nav.menu li.idioma{display:flex;align-items:center;margin-left:8px;border:1px solid var(--linea)}
+nav.menu li.idioma span{color:var(--linea)}
+nav.menu li.idioma a{padding:6px 5px;color:var(--gris)}
+nav.menu li.idioma a.actual{color:var(--acento);font-weight:600}
+@media (max-width:1180px){nav.menu li.idioma{margin:8px 0 0;align-self:flex-start}}
 
 /* ---------- banner de entrada (portada) ---------- */
 .intro{position:relative;height:calc(100svh - 53px);min-height:520px;overflow:hidden;background:#e9e2d3;color:var(--tinta);isolation:isolate}
@@ -244,5 +248,5 @@ nav.menu li.idioma a{border:1px solid var(--linea);margin-left:6px;color:var(--a
 @media (hover:none){.intro-img{animation:deriva 18s ease-in-out infinite}}
 @media (max-width:760px){.intro-img{width:auto;left:-3%;-webkit-mask-image:none;mask-image:none}.intro h1{white-space:normal}.intro-velo{background:linear-gradient(180deg,rgba(251,250,247,.94) 0%,rgba(251,250,247,.8) 45%,rgba(251,250,247,.1) 80%)}.intro-txt{top:38%}.sello{display:none}}
 @media (prefers-reduced-motion:reduce){.intro *,.intro-img{animation:none!important;opacity:1!important;transform:none!important;transition:none!important}}
-.intro-credito{position:absolute;right:16px;bottom:10px;margin:0;font:400 10.5px/1.3 var(--sans);color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.6);opacity:.85;max-width:60%;text-align:right}
+.intro-credito{position:absolute;right:6px;bottom:14px;margin:0;writing-mode:vertical-rl;transform:rotate(180deg);font:400 9px/1 var(--sans);letter-spacing:.04em;color:rgba(40,35,28,.55);mix-blend-mode:multiply}
 @media (max-width:760px){.intro-credito{display:none}}
