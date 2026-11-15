@@ -19,7 +19,7 @@ AUTOR = 'Daniel Bilbao Marcos'
 TUTORA = 'Beatriz Zapico Blanco'
 BASE = 'https://danielbilmar.github.io/Grand-Tour-TFG/'
 # Código de verificación de Google Search Console (solo el valor de content="..."). Vacío = sin etiqueta.
-GOOGLE_VERIFICACION = ''
+GOOGLE_VERIFICACION = 'PvEwpyVYJF9_vdXSNkeC0luwCIwCmiNcNKv3msaYIfM'
 VISTAS = {'utzon':',vista:[96,46,124,20]'}  # encuadre inicial (lon O, lat N, lon E, lat S)
 RETRATOS = {'F02-24','F09-02','F09-04'}  # se muestran en la cabecera del caso
 # Figuras propias que en la web se sustituyen por el mapa y el eje interactivos de cada caso
