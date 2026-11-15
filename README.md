@@ -44,3 +44,9 @@ Para cambiar un texto, edita el archivo de `fuente/` (o `fuente/en/` para el ing
 ## Imágenes
 
 En la web solo se reproducen las imágenes de elaboración propia, de dominio público o con licencia libre. Las demás figuras del TFG aparecen como ficha con su pie y un enlace a la fuente original.
+
+## Buscadores (Google)
+
+`fuente/build.py` añade a cada página su URL canónica, las etiquetas para compartir en redes (Open Graph) y, en la portada, datos estructurados (schema.org `Thesis`) con autor, tutora y universidad. También genera `sitemap.xml`, que se envía a mano en Google Search Console (`sitemap.xml` dentro de la propiedad `https://danielbilmar.github.io/Grand-Tour-TFG/`).
+
+Para la verificación de Search Console por etiqueta HTML, pegar el código en `GOOGLE_VERIFICACION` al principio de `fuente/build.py` y volver a ejecutar el script.

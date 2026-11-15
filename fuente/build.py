@@ -17,6 +17,9 @@ REG = {r['id']: r for r in json.load(open(os.path.join(F, 'registro.json'), enco
 VIAJES = {v['id']: v for v in json.load(open(os.path.join(R, 'data', 'viajes.json'), encoding='utf-8'))}
 AUTOR = 'Daniel Bilbao Marcos'
 TUTORA = 'Beatriz Zapico Blanco'
+BASE = 'https://danielbilmar.github.io/Grand-Tour-TFG/'
+# Código de verificación de Google Search Console (solo el valor de content="..."). Vacío = sin etiqueta.
+GOOGLE_VERIFICACION = ''
 VISTAS = {'utzon':',vista:[96,46,124,20]'}  # encuadre inicial (lon O, lat N, lon E, lat S)
 RETRATOS = {'F02-24','F09-02','F09-04'}  # se muestran en la cabecera del caso
 # Figuras propias que en la web se sustituyen por el mapa y el eje interactivos de cada caso
@@ -92,9 +95,30 @@ def pagina(nombre, titulo, cuerpo, scripts='', desc=''):
     pie_nav=f'<div class="siguiente">{ant}{sig}</div>' if (ant or sig) else ''
     tt=(titulo+' · Grand Tour') if nombre!='index.html' else titulo_tfg()
     es_url=nombre; en_url='en/'+nombre
-    base='https://danielbilmar.github.io/Grand-Tour-TFG/'
+    base=BASE
     d=desc or t('Trabajo Fin de Grado de '+AUTOR+' sobre los viajes iniciáticos de John Soane, Charles Garnier, Le Corbusier, Jørn Utzon y Tadao Ando.',
                 'Undergraduate thesis by '+AUTOR+' on the initiatory journeys of John Soane, Charles Garnier, Le Corbusier, Jørn Utzon and Tadao Ando.')
+    url=base+(en_url if L=='en' else es_url)
+    extra=f'<link rel="canonical" href="{url}">\n<link rel="alternate" hreflang="x-default" href="{base}{es_url}">\n'
+    extra+=(f'<meta property="og:type" content="website"><meta property="og:site_name" content="Grand Tour · {AUTOR}">'
+            f'<meta property="og:title" content="{esc(tt)}"><meta property="og:description" content="{esc(d)}">'
+            f'<meta property="og:url" content="{url}"><meta property="og:image" content="{base}img/portada-panini.jpg">'
+            f'<meta property="og:locale" content="{t("es_ES","en_GB")}"><meta name="twitter:card" content="summary_large_image">\n')
+    if nombre=='index.html':
+        if GOOGLE_VERIFICACION and L=='es':
+            extra+=f'<meta name="google-site-verification" content="{esc(GOOGLE_VERIFICACION)}">\n'
+        ld={'@context':'https://schema.org','@type':'Thesis','name':titulo_tfg(),'headline':titulo_tfg(),
+            'description':d,'inLanguage':L,'url':url,'datePublished':'2026',
+            'author':{'@type':'Person','name':AUTOR},
+            'contributor':{'@type':'Person','name':TUTORA,'roleName':t('Tutora','Supervisor')},
+            'sourceOrganization':{'@type':'CollegeOrUniversity','name':'Universidad de Sevilla',
+                'department':{'@type':'Organization','name':'Escuela Técnica Superior de Arquitectura de Sevilla'}},
+            'educationalLevel':t('Trabajo Fin de Grado · Grado en Fundamentos de la Arquitectura','Undergraduate thesis · Bachelor in Fundamentals of Architecture'),
+            'about':['Grand Tour','John Soane','Charles Garnier','Le Corbusier','Jørn Utzon','Tadao Ando'],
+            'keywords':t('Grand Tour, viaje iniciático, viaje de arquitectura, formación del arquitecto, TFG, ETSA Sevilla',
+                         'Grand Tour, initiatory journey, architectural travel, architectural education, undergraduate thesis'),
+            'image':base+'img/portada-panini.jpg'}
+        extra+='<script type="application/ld+json">'+json.dumps(ld,ensure_ascii=False)+'</script>\n'
     return f'''<!DOCTYPE html>
 <html lang="{L}">
 <head>
@@ -105,7 +129,7 @@ def pagina(nombre, titulo, cuerpo, scripts='', desc=''):
 <meta name="author" content="{AUTOR}">
 <meta name="gt-base" content="{P}">
 <link rel="alternate" hreflang="es" href="{base}{es_url}"><link rel="alternate" hreflang="en" href="{base}{en_url}">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+{extra}<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{P}assets/estilo.css">
 </head>
@@ -337,6 +361,24 @@ def construir():
     for n,c in enumerate(casos(),1): caso(c,n)
     mapa(); conclusiones(); fuentes(); ilustraciones()
 
+def sitemap():
+    """sitemap.xml para buscadores. Se envía a mano en Google Search Console
+    (un robots.txt aquí no serviría: Google solo lo lee en la raíz de danielbilmar.github.io)."""
+    import datetime
+    hoy=datetime.date.today().isoformat()
+    filas=[]
+    for n in orden():
+        alt=f'<xhtml:link rel="alternate" hreflang="es" href="{BASE}{n}"/><xhtml:link rel="alternate" hreflang="en" href="{BASE}en/{n}"/>'
+        pr='1.0' if n=='index.html' else '0.8'
+        for u in (n,'en/'+n):
+            filas.append(f'<url><loc>{BASE}{u}</loc><lastmod>{hoy}</lastmod><priority>{pr}</priority>{alt}</url>')
+    filas.append(f'<url><loc>{BASE}ejes.html</loc><lastmod>{hoy}</lastmod><priority>0.6</priority></url>')
+    xml=('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n'
+         +'\n'.join(filas)+'\n</urlset>\n')
+    open(os.path.join(R,'sitemap.xml'),'w',encoding='utf-8').write(xml)
+    print('· sitemap.xml')
+
 if __name__=='__main__':
     L,P='es',''; construir()
     L,P='en','../'; construir()
+    sitemap()
